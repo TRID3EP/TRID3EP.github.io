@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Zexponent — Exponential Growth in Z</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Syne:wght@400;700;800&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div id="cursor"></div>
+<div id="cursor-ring"></div>
+
+<canvas id="zcanvas"></canvas>
+
+<nav>
+  <a href="#" class="logo">Z<span>exponent</span></a>
+  <ul class="nav-links">
+    <li><a href="#core">About</a></li>
+    <li><a href="#pillars">Pillars</a></li>
+    <li><a href="#manifesto">Vision</a></li>
+  </ul>
+  <button class="nav-cta">Begin Ascent</button>
+</nav>
+
+<section id="hero">
+  <div class="hero-eyebrow">Exponential Growth · Z Dimension</div>
+  <h1 class="hero-headline">
+    Beyond<br/>
+    <em>the plane</em><br/>
+    <strong>rises</strong>
+  </h1>
+  <p class="hero-sub">
+    Where X meets Y, most stop. Zexponent begins. 
+    We engineer the vertical axis — depth, dimension, and the compounding geometry of ascent.
+  </p>
+  <div class="hero-actions">
+    <a href="#core" class="btn-primary">
+      Explore the Axis
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+        <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </a>
+    <a href="#manifesto" class="btn-ghost">Read the Vision</a>
+  </div>
+  <div class="hero-z">Z</div>
+  <div class="scroll-hint">
+    <div class="scroll-line"></div>
+    Scroll to Ascend
+  </div>
+</section>
+
+<section id="stats">
+  <div class="stat-item">
+    <div class="stat-val">10<sup>z</sup></div>
+    <div class="stat-label">Growth Function</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-val">∞</div>
+    <div class="stat-label">Theoretical Ceiling</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-val">3</div>
+    <div class="stat-label">Dimensions Activated</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-val">eᶻ</div>
+    <div class="stat-label">Core Formula</div>
+  </div>
+</section>
+
+<div class="glow-line"></div>
+
+<section id="core">
+  <div class="core-left">
+    <div class="core-label">What is Zexponent</div>
+    <h2 class="core-heading">
+      The third axis<br/>
+      is where<br/>
+      <em>empires</em> grow
+    </h2>
+    <p class="core-body">
+      Most growth models exist in two dimensions — inputs versus outputs, 
+      time versus performance. They plateau, peak, and perish in the flatlands of XY.
+    </p>
+    <p class="core-body">
+      Zexponent is built on one radical premise: <em>true exponential growth 
+      requires a third axis</em>. The Z dimension represents compounding depth — 
+      the hidden variable that separates linear scaling from vertical ascent.
+    </p>
+  </div>
+  <div class="graph-container">
+    <canvas id="graph3d" width="520" height="420"></canvas>
+  </div>
+</section>
+
+<section id="pillars">
+  <div class="section-header">
+    <div>
+      <div class="section-label">Core Pillars</div>
+      <div class="section-title">The geometry<br/>of ascent</div>
+    </div>
+    <div class="section-count">03</div>
+  </div>
+  <div class="pillars-grid">
+    <div class="pillar" style="transition-delay: 0s">
+      <span class="pillar-icon">⬡</span>
+      <div class="pillar-num">01 / Depth</div>
+      <h3 class="pillar-title">Compound<br/>Dimension</h3>
+      <p class="pillar-body">
+        Every layer you build multiplies the one beneath it. 
+        Zexponent architects stacks — not sequences — 
+        where each node amplifies the entire system below.
+      </p>
+      <span class="pillar-arrow">↗</span>
+    </div>
+    <div class="pillar" style="transition-delay: 0.15s">
+      <span class="pillar-icon">◈</span>
+      <div class="pillar-num">02 / Velocity</div>
+      <h3 class="pillar-title">Escape<br/>Velocity</h3>
+      <p class="pillar-body">
+        The Z curve begins slow. Then it bends. Then it 
+        breaks every projection. We design systems built 
+        for the inflection point — not the starting line.
+      </p>
+      <span class="pillar-arrow">↗</span>
+    </div>
+    <div class="pillar" style="transition-delay: 0.3s">
+      <span class="pillar-icon">⟁</span>
+      <div class="pillar-num">03 / Recursion</div>
+      <h3 class="pillar-title">Self-amplifying<br/>Systems</h3>
+      <p class="pillar-body">
+        Growth that feeds growth. Zexponent builds loops 
+        where outputs become inputs, where momentum 
+        is the mechanism, not the outcome.
+      </p>
+      <span class="pillar-arrow">↗</span>
+    </div>
+  </div>
+</section>
+
+<section id="curve-section">
+  <div class="curve-bg-text">eᶻ</div>
+  <span class="curve-label">The Curve</span>
+  <h2 class="curve-title">Witness the<br/><em>function</em></h2>
+  <p class="curve-sub">
+    The exponential curve doesn't ask permission before it bends the world.
+    It simply compounds — until the graph can no longer contain it.
+  </p>
+  <canvas id="expCanvas" height="320"></canvas>
+</section>
+
+<section id="manifesto">
+  <p class="manifesto-quote">
+    The flatlands are safe. The Z axis is where everything 
+    that was ever worth doing finally happens.
+  </p>
+  <div class="manifesto-attr">— The Zexponent Doctrine</div>
+</section>
+
+<section id="cta">
+  <h2 class="cta-heading">
+    Exponential growth<br/>starts with <em>Strong</em><br/>roots.
+  </h2>
+  <div class="cta-right">
+    <p class="cta-body">
+      Join the architects of exponential systems. 
+      Whether you're building companies, products, or ideas — 
+      the third dimension is waiting.
+    </p>
+    <div style="display:flex; gap:16px; flex-wrap:wrap;">
+      <a href="#" class="btn-primary">
+        Launch Into Z
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+          <path d="M8 3v10M4 9l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" transform="rotate(180 8 8)"/>
+        </svg>
+      </a>
+      <a href="#" class="btn-ghost">Contact</a>
+    </div>
+  </div>
+</section>
+
+<div style="display:flex; flex-direction:column; align-items:center; justify-content:center; padding: 80px 56px; gap: 32px; position:relative; z-index:10;">
+
+  <div style="position:relative; width:260px; height:260px; display:flex; align-items:center; justify-content:center;">
+
+    <svg style="position:absolute; inset:0; width:100%; height:100%; animation: orbitalSpin 18s linear infinite;" viewBox="0 0 260 260">
+      <defs>
+        <linearGradient id="orb" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#00d4ff" stop-opacity="0.9"/>
+          <stop offset="40%" stop-color="#00d4ff" stop-opacity="0.1"/>
+          <stop offset="100%" stop-color="#00d4ff" stop-opacity="0.9"/>
+        </linearGradient>
+      </defs>
+      <circle cx="130" cy="130" r="122" stroke="url(#orb)" stroke-width="1.5" fill="none" stroke-dasharray="16 8"/>
+    </svg>
+
+    <svg style="position:absolute; inset:10px; width:calc(100% - 20px); height:calc(100% - 20px); animation: orbitalSpinRev 30s linear infinite;" viewBox="0 0 240 240">
+      <circle cx="120" cy="120" r="112" stroke="#00d4ff" stroke-width="0.6" fill="none" stroke-dasharray="4 14" opacity="0.3"/>
+    </svg>
+
+    <svg style="position:absolute; inset:0; width:100%; height:100%;" viewBox="0 0 260 260">
+      <circle cx="130" cy="130" r="115" stroke="#0d2a3a" stroke-width="1" fill="none"/>
+      <g stroke="#00d4ff" stroke-width="1" opacity="0.5">
+        <line x1="130" y1="15" x2="130" y2="24"/>
+        <line x1="130" y1="236" x2="130" y2="245"/>
+        <line x1="15" y1="130" x2="24" y2="130"/>
+        <line x1="236" y1="130" x2="245" y2="130"/>
+        <line x1="49" y1="49" x2="56" y2="56"/>
+        <line x1="204" y1="56" x2="211" y2="49"/>
+        <line x1="49" y1="211" x2="56" y2="204"/>
+        <line x1="204" y1="204" x2="211" y2="211"/>
+      </g>
+      <circle cx="130" cy="15" r="2" fill="#00d4ff" opacity="0.7"/>
+      <circle cx="130" cy="245" r="2" fill="#00d4ff" opacity="0.7"/>
+      <circle cx="15" cy="130" r="2" fill="#00d4ff" opacity="0.7"/>
+      <circle cx="245" cy="130" r="2" fill="#00d4ff" opacity="0.7"/>
+    </svg>
+
+    <div style="width:210px; height:210px; border-radius:50%; overflow:hidden; border:2px solid #00d4ff44; box-shadow:0 0 32px #00d4ff44, 0 0 64px #00d4ff1a, inset 0 0 20px #00000088; position:relative; z-index:2;">
+      <img src="/HTMLimages2/img9.jpeg"
+           style="width:100%; height:100%; object-fit:cover; object-position:center;"
+           alt="Zexponent Emblem"/>
+      <div style="position:absolute; inset:0; background:radial-gradient(ellipse at 50% 40%, transparent 45%, #001828bb 100%); mix-blend-mode:multiply;"></div>
+      <div style="position:absolute; inset:0; background:radial-gradient(ellipse at 50% 0%, #00d4ff18 0%, transparent 60%);"></div>
+    </div>
+
+    <div style="position:absolute; bottom:4px; left:50%; transform:translateX(-50%); z-index:10;">
+      <svg width="76" height="30" viewBox="0 0 76 30">
+        <defs>
+          <linearGradient id="badgeBg" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#001828ee"/>
+            <stop offset="100%" stop-color="#002a40ee"/>
+          </linearGradient>
+          <linearGradient id="badgeTxt" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0%" stop-color="#ffffff"/>
+            <stop offset="100%" stop-color="#00d4ff"/>
+          </linearGradient>
+          <filter id="glow6"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+        </defs>
+        <rect x="1" y="1" width="74" height="28" rx="6" fill="url(#badgeBg)" stroke="#00d4ff" stroke-width="1"/>
+        <text x="7" y="23" font-family="Orbitron,monospace" font-weight="900" font-size="20" fill="url(#badgeTxt)" filter="url(#glow6)">Z</text>
+        <text x="28" y="14" font-family="Orbitron,monospace" font-weight="700" font-size="12" fill="#00d4ff" filter="url(#glow6)">ex</text>
+      </svg>
+    </div>
+
+  </div>
+
+</div>
+
+<footer>
+  <div class="footer-logo">Z<span>exponent</span></div>
+  <div class="footer-text">Exponential Growth · Z Dimension · © 2026</div>
+  <div class="footer-text">zexponent.com</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
