@@ -18,7 +18,7 @@
   body {
     background: var(--black);
     /* BACKGROUND IMAGE ADDITION */
-    background-image: linear-gradient(rgba(4, 4, 10, 0.85), rgba(4, 4, 10, 0.1)), url('/HTMLimages2/img12.jpeg');
+    background-image: linear-gradient(rgba(4, 4, 10, 0.85), rgba(4, 4, 10, 0.1)), url('img12.jpeg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
